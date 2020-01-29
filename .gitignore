@@ -1,2 +1,6 @@
+Lectures/
 OLD/
 *.zip
+*.h5
+*.jpg
+*/__pycache__/
