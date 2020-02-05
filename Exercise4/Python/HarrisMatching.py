@@ -163,7 +163,7 @@ for i1 in range(npts1):
         Y = ((patches2[:,:,i2]))
         mu_X = np.mean(X)
         mu_Y = np.mean(Y)
-#        distmat[i1, i2] = (( (X-mu_X) * Y-mu_Y) ) / ( np.sqrt( ((X-mu_X)**2)*((Y-mu_Y)**2)) )
+#       distmat[i1, i2] = (( (X-mu_X) * Y-mu_Y) ) / ( np.sqrt( ((X-mu_X)**2)*((Y-mu_Y)**2)) )
 
         distmat[i1, i2] = np.sum( (X-mu_X) * (Y-mu_Y) ) / np.sqrt(np.sum((X-mu_X)**2) * np.sum((Y-mu_Y)**2))
 

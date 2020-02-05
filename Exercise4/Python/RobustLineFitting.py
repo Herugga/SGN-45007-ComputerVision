@@ -49,6 +49,7 @@ while N > sample_count:
     
     # Fit a line, do a cross product, 
     l =np.cross(points_h[:,a],points_h[:,b])
+    
     l = l / np.sqrt(l[0]**2+l[1]**2)
     ##-your-code-ends-here-##
 
